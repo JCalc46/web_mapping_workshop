@@ -25,7 +25,7 @@ featureLayer.on('ready', function() {
     this.setStyle({
         "color": "#43094c",
         "fillColor": "#43094c",
-        "weight": .5,
+        "weight": 1.0,
         "opacity": 0.65
     });
     map.fitBounds(featureLayer.getBounds());
