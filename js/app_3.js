@@ -36,6 +36,6 @@ featureLayer.on('ready', function() {
 
 featureLayer.on('ready', function(){
   this.eachLayer(function(layer){
-    layer.bindPopup('The trail surface is ' + layer.feature.properties.surface);
+    layer.bindPopup('The trail surface is ' + layer.feature.properties.id);
   });
 });
